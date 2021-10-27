@@ -9,6 +9,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{1994F2E8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alura.LeilaoOnline.Core", "Alura.LeilaoOnline.Core\Alura.LeilaoOnline.Core.csproj", "{9FE675C0-F615-4C76-839C-3EA6BCDA90C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alura.LeilaoOnline.ConsoleApp", "Alura.LeilaoOnline.ConsoleApp\Alura.LeilaoOnline.ConsoleApp.csproj", "{64478C84-8344-4EE6-AF83-FC70F11261CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alura.LeilaoOnline.Tests", "Alura.LeilaoOnline.Tests\Alura.LeilaoOnline.Tests.csproj", "{DD62A8BF-B0BF-43BA-91B9-DB405785DE78}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +23,22 @@ Global
 		{9FE675C0-F615-4C76-839C-3EA6BCDA90C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FE675C0-F615-4C76-839C-3EA6BCDA90C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FE675C0-F615-4C76-839C-3EA6BCDA90C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64478C84-8344-4EE6-AF83-FC70F11261CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64478C84-8344-4EE6-AF83-FC70F11261CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64478C84-8344-4EE6-AF83-FC70F11261CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64478C84-8344-4EE6-AF83-FC70F11261CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD62A8BF-B0BF-43BA-91B9-DB405785DE78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD62A8BF-B0BF-43BA-91B9-DB405785DE78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD62A8BF-B0BF-43BA-91B9-DB405785DE78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD62A8BF-B0BF-43BA-91B9-DB405785DE78}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9FE675C0-F615-4C76-839C-3EA6BCDA90C4} = {4F5433C1-BC3B-48A2-BB37-06EDC6F5D9F2}
+		{64478C84-8344-4EE6-AF83-FC70F11261CE} = {1994F2E8-8CD6-456B-BD91-9E25004F193B}
+		{DD62A8BF-B0BF-43BA-91B9-DB405785DE78} = {1994F2E8-8CD6-456B-BD91-9E25004F193B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {29DFA2A5-A76A-43FC-9FAC-081E47E316CA}
